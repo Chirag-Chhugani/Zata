@@ -1,0 +1,28 @@
+# Dependencies
+**/node_modules/
+**/package-lock.json
+**/yarn.lock
+
+# Environment Variables
+.env
+.env.local
+.env.*
+!.env.example
+
+# Build files
+**/dist/
+**/build/
+
+# IDE specific
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+**/logs
+*.log
+npm-debug.log*
+
+# System Files
+.DS_Store
+Thumbs.db
